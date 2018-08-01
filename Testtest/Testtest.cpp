@@ -61,3 +61,7 @@ BOOL CTesttestApp::InitInstance()
 
 	return TRUE;
 }
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#endif
